@@ -1,4 +1,4 @@
-import { getMovieById } from 'components/Services/api';
+import { getMovieById } from 'utils/api';
 import { useEffect, useRef, useState } from 'react';
 import {
   NavLink,

@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const StyledHeader = styled.header`
   border-bottom: 1px solid black;
-  border-radius: 10px;
   padding: 20px 0 20px 0;
   margin-bottom: 50px;
 

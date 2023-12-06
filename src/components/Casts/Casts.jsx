@@ -1,4 +1,4 @@
-import { getMovieCredits } from 'components/Services/api';
+import { getMovieCredits } from 'utils/api';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 

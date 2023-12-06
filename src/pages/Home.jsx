@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import { getTrendingMovies } from 'components/Services/api';
+import { getTrendingMovies } from 'utils/api';
 import TrendingMovies from 'components/TrendingMovies/TrendingMovies';
 import { Loader } from 'components/Loader/Loader';
 

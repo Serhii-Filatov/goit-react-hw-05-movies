@@ -1,9 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
+import { defaultImg } from '../../utils/constants';
 
 const TrendingMovies = ({ movies }) => {
-  const defaultImage =
-    'https://ireland.apollo.olxcdn.com/v1/files/0iq0gb9ppip8-UA/image;s=1000x700';
-
   const location = useLocation();
 
   return (
@@ -22,7 +20,7 @@ const TrendingMovies = ({ movies }) => {
                 src={
                   poster_path
                     ? `https://image.tmdb.org/t/p/w500/${poster_path}`
-                    : defaultImage
+                    : defaultImg
                 }
                 alt={`Card to ${title}`}
               />

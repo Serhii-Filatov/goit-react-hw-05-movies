@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
+import { getMoviesbySearchQuery } from 'utils/api';
+
 import TrendingMovies from 'components/TrendingMovies/TrendingMovies';
-import { getMoviesbySearchQuery } from 'components/Services/api';
 import { Loader } from 'components/Loader/Loader';
 
 const Movies = () => {

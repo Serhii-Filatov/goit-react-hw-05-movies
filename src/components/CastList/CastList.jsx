@@ -1,5 +1,4 @@
-const defaultImage =
-  'https://ireland.apollo.olxcdn.com/v1/files/0iq0gb9ppip8-UA/image;s=1000x700';
+import { defaultImg } from '../../utils/constants';
 
 const CastList = ({ casts }) => {
   return (
@@ -11,7 +10,7 @@ const CastList = ({ casts }) => {
               src={
                 profile_path
                   ? `https://image.tmdb.org/t/p/w500/${profile_path}`
-                  : defaultImage
+                  : defaultImg
               }
               width={150}
               alt={`poster ${name}`}

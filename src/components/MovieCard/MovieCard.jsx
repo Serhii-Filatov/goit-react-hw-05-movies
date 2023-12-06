@@ -1,7 +1,7 @@
+import { defaultImg } from '../../utils/constants';
+
 const MovieCard = ({ movie }) => {
   const { title, name, poster_path, overview, genres, vote_average } = movie;
-  const defaultImage =
-    'https://ireland.apollo.olxcdn.com/v1/files/0iq0gb9ppip8-UA/image;s=1000x700';
 
   return (
     <div className="card-wraper">
@@ -10,7 +10,7 @@ const MovieCard = ({ movie }) => {
         src={
           poster_path
             ? `https://image.tmdb.org/t/p/w500/${poster_path}`
-            : defaultImage
+            : defaultImg
         }
         width={300}
         alt={`poster to movie: ${title}`}

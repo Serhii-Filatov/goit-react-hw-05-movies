@@ -1,5 +1,3 @@
-/* UNDONE!!! */
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -17,9 +15,6 @@ code {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p {
   margin: 0;
 }

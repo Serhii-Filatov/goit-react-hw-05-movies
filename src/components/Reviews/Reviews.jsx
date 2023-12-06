@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { getMovieReviews } from 'components/Services/api';
+import { useEffect, useState } from 'react';
+import { getMovieReviews } from 'utils/api';
 import { useParams } from 'react-router-dom';
 
 import { ToastContainer, toast } from 'react-toastify';

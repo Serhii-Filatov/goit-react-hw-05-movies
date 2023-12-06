@@ -1,7 +1,5 @@
 import axios from 'axios';
-// Мой клю
-const API_KEY = '3df770cbcce42751a371232778d32a4f';
-const BASE_URL = 'https://api.themoviedb.org/3/';
+import { API_KEY, BASE_URL } from './constants';
 
 axios.defaults.params = {
   api_key: API_KEY,
